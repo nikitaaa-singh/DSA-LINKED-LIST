@@ -8,7 +8,6 @@ public:
         while (curr != NULL) {
 
             ListNode* nextNode = curr->next;
-
             curr->next = prev;
 
             prev = curr;
